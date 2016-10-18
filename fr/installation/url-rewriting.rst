@@ -59,7 +59,7 @@ http://wiki.apache.org/httpd/DistrosDefaultLayout pour plus d'informations.
    répertoire.
 
    Cela peut arriver pendant la copie parce que certains systèmes
-   d'exploitation traitent les fichiers qui commencent par '.' en caché et du
+   d'exploitation traitent les fichiers qui commencent par `.` en caché et du
    coup ne les voient pas pour les copier.
 
 #. Assurez-vous que votre copie de CakePHP vient de la section des
@@ -94,7 +94,7 @@ http://wiki.apache.org/httpd/DistrosDefaultLayout pour plus d'informations.
            RewriteRule ^(.*)$ index.php/$1 [QSA,L]
        </IfModule>
 
-   Si votre site CakePHP a toujours des problèmes avec mod\_rewrite,
+   Si votre site CakePHP a toujours des problèmes avec mod_rewrite,
    essayez de modifier les paramètres pour les Hôtes Virtuels. Si vous
    êtes sur Ubuntu, modifiez le fichier /etc/apache2/sites-available/default
    (l'endroit dépend de la distribution). Dans ce fichier, assurez-vous
@@ -306,7 +306,7 @@ avec Hiawatha est:
        Match .* Rewrite /index.php
     }
 
-Je ne veux / ne peux utiliser l'URL rewriting
+Je ne veux/ne peux utiliser l'URL rewriting
 =============================================
 
 Si vous ne voulez ou ne pouvez pas utiliser l'URL rewriting sur votre serveur
